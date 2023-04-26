@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+body {
+    font-family: system-ui;
+}
+
+.nick {
+    color: #107167;
+}
+
+.main_name {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ba74f7;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.accNam {
+    font-size: 30px;
+    color: #ba74f7;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c2e2ee;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+nav button {
+    width: 100px;
+    font-size: 30px;
+    font-family: system-ui;
+    color: #b4baed;
+    border-color: #c2e2ee;
+}
+
+  nav a {
+    text-decoration: none;
+    color: #3e26dd;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+  }
+
+  .but {
+    margin: 1000;
+    
+}
+  nav a:hover {
+    color: rgb(18, 233, 240);
+  }
+  
+/* .form_reg {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 500px;
+} */
+
+.lable_comm {
+    font-family: system-ui;
+    font-size: 50px;
+    font-weight: 60px;
+    color: #571492;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.image {
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    /* border: 5px solid black; */
+  }
+
+.imageSend {
+  margin-left: 30px;
+}
+
+.rowAdminCom {
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.butToSend {
+    margin-left: 900px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.commOld {
+  font-family: system-ui;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.inp {
+    margin: 40px;
+    height: 150px;
+    padding: 10px;
+    font-size: 20px;
+    padding-bottom: 120px;
+    white-space: normal;
+}
+
+.divCom {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form_reg {
+  font-family: system-ui;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+  border-radius: 20px;
+}
